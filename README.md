@@ -6,6 +6,17 @@ Adds various random string constructions.
 - Random human names
 - Random names
 
+## Usage
+
+```swift
+String.random(.upper, ofSize: 8)              // ZOGPHLXZ
+String.random([.lower, .numbers], ofSize: 12) // 3ngf6sd043sd
+
+String.random(.default)                       // Infallible Party
+String.random(.womanName)                     // Rose Young
+String.random(.distinguished, delimiter: "_") // Vigilant_Galileo
+```
+
 ## Troubleshooting
 
 ### XCTesting
