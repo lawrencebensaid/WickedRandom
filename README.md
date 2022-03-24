@@ -1,3 +1,7 @@
 # WickedRandom
 
-A description of this package.
+Adds various random string constructions.
+
+- Random character string (letters and numbers)
+- Random human names
+- Random names
