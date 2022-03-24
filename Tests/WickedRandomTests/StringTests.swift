@@ -1,7 +1,7 @@
 import XCTest
 @testable import WickedRandom
 
-final class WickedRandomTests: XCTestCase {
+final class StringTests: XCTestCase {
 
     func testString_isUppercase() throws {
         XCTAssertTrue("ZOGPHLXZ".isUppercase)
